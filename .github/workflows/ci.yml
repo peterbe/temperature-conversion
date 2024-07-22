@@ -37,6 +37,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
       - run: ruby conversion.rb
+  crystal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: crystal-lang/install-crystal@v1
+      - run: |
+          crystal build -o conversion-cr conversion.cr
+          ./conversion-cr
   go:
     runs-on: ubuntu-latest
     steps:
