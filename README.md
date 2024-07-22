@@ -1,5 +1,14 @@
 # temperature-conversion
 
+This is the code for this blog post series:
+
+1. [Converting Celsius to Fahrenheit with Python](https://www.peterbe.com/plog/converting-celsius-to-fahrenheit-with-python)
+1. [Converting Celsius to Fahrenheit with TypeScript](https://www.peterbe.com/plog/converting-celsius-to-fahrenheit-with-typescript)
+1. [Converting Celsius to Fahrenheit with Go](https://www.peterbe.com/plog/converting-celsius-to-fahrenheit-with-go)
+1. [Converting Celsius to Fahrenheit with Ruby](https://www.peterbe.com/plog/converting-celsius-to-fahrenheit-with-ruby)
+1. [Converting Celsius to Fahrenheit with Crystal](https://www.peterbe.com/plog/converting-celsius-to-fahrenheit-with-crystal)
+1. [Converting Celsius to Fahrenheit with Rust](https://www.peterbe.com/plog/converting-celsius-to-fahrenheit-with-rust)
+
 ## Python
 
 ```sh
