@@ -56,10 +56,16 @@ rustc build -o conversion-rs conversion.rs
 ./conversion-rs
 ```
 
+## Deno
+
+```sh
+deno run conversion.ts
+```
+
 ## Benchmark
 
 ```sh
-hyperfine --shell=none --warmup 3 "python3.12 conversion.py" "bun run conversion.ts" "ruby conversion.rb" "node conversion.js" "./conversion-go" "./conversion-cr" "./conversion-rs"
+hyperfine --shell=none --warmup 3 "python3.12 conversion.py" "bun run conversion.ts" "ruby conversion.rb" "node conversion.js" "./conversion-go" "./conversion-cr" "./conversion-rs" "deno run conversion.ts"
 ```
 
 Results of `hyperfine` benchmark:
